@@ -9,18 +9,12 @@
 </template>
 
 <script>
+import frutasMixin from './frutasMixin';
+
 export default {
-    data(){
-        return {
-            fruta: '',
-            frutas: ['banana', 'maça', 'laranja']
-        }
-    },
-    methods: {
-        add(){
-            this.frutas.push(this.fruta)
-            this.fruta = ''
-        }
+    mixins: [ frutasMixin ],
+    created(){
+        console.log('Created - Frutas.vue!')
     }
 }
 </script>
