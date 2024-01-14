@@ -37,7 +37,7 @@ export default {
 	font-size: 1.5rem;
 }
 
-.fade-enter, .fade-leave-to, {
+.fade-enter, .fade-leave-to {
 	opacity: 0;
 }
 
