@@ -34,4 +34,4 @@ export default {
         padding: 20px;
         margin-bottom: 60px;
     }
-</style>
+</style>iufhasui f
